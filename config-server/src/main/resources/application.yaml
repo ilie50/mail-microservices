@@ -15,3 +15,7 @@ spring:
               uri: file:///C:/Projects/others/mail-microservices
   application:
     name: config
+logging:
+  level:
+    org:
+      springframework: DEBUG
