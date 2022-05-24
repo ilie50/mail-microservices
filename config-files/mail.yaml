@@ -19,8 +19,8 @@ spring:
       mail:
         smtp:
           auth: true
-        starttls:
-          enable: false
+          starttls:
+            enable: false
     
 management:
   security:

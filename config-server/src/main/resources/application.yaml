@@ -7,11 +7,11 @@ spring:
       name: config
       server:
         git:
-          uri: https://github.com/PacktPublishing/Spring-5.0-By-Example
+          uri: https://github.com/ilie50/mail-microservices
           search-paths: config-files*
           repos:
             local:
               pattern: mail/local*
-              uri: file:///C:/Projects/others/Spring-5.0-By-Example-master
+              uri: file:///C:/Projects/others/mail-microservices
   application:
     name: config
